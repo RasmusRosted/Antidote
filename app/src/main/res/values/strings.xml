@@ -24,8 +24,11 @@
     <string name="title_screen_slide">Screen Slide</string>
     <string name="title_zoom">Zoom</string>
     <string name="title_layout_changes">Layout Changes</string>
-    <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: <xliff:g id="title_text">%2$d</xliff:g></string>
+    <!--
+    <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>:</string>
     <string name="description"></string>
+    -->
+    <string name="title_template_step"></string>
     <string name="action_settings">action_settings</string>
     <string name="title_activity_drug_usage">Drug Usage</string>
     <string name="lorem_ipsum">lorem ipsum</string>

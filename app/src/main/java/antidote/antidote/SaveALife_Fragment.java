@@ -47,6 +47,12 @@ public class SaveALife_Fragment extends Fragment {
      */
     private int mPageNumber;
 
+    //TODO
+    private List<String> titleList;
+    private String titleTxt;
+
+
+
     /**
      * Factory method for this fragment class. Constructs a new fragment for the given page number.
      */
@@ -73,21 +79,22 @@ public class SaveALife_Fragment extends Fragment {
         // Inflate the layout containing a title and body text.
         ViewGroup rootView = (ViewGroup) inflater
                 .inflate(R.layout.fragment_save_a_life, container, false);
-
-        //TODO test
-
-        List<String> titleList = Arrays.asList(getResources().getStringArray(R.array.SaveALifeTitles));
-        String titleTxt = titleList.get(mPageNumber);
+        titleTxt = getTitleTxt();
 
         // Set the title view to show the page number.
         ((TextView) rootView.findViewById(android.R.id.text1)).setText(
-                getString(R.string.title_template_step, mPageNumber + 1, titleTxt));
+                titleTxt);
 
-
-
-        //((TextView) rootView.findViewById(android.R.id.text2)).setText(getString(R.string.description, titleTxt));
+        //TODO ((TextView) rootView.findViewById(android.R.id.text2)).setText(getString(R.string.description, titleTxt));
 
         return rootView;
+    }
+
+    public String getTitleTxt() {
+        //TODO ITS ALIVE!!!!!! HURRA!
+        titleList = Arrays.asList(getResources().getStringArray(R.array.SaveALifeTitles));
+        titleTxt = titleList.get(mPageNumber);
+        return titleTxt;
     }
 
     /**
