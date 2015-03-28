@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SaveALife_Titles">
+        <item>Den første title</item>
+        <item>Den anden title</item>
+        <item>Den 3 title</item>
+        <item>Den 4 title</item>
+        <item>Den 5 title</item>
+        <item>Den 6 title</item>
+    </string-array>
+
+    <string-array name="SaveALife_Drawables">
+        <item>@drawable/step01</item>
+        <item>@drawable/step02</item>
+        <item>@drawable/step03</item>
+        <item>@drawable/step04</item>
+        <item>@drawable/step05</item>
+        <item>@drawable/step06</item>
+    </string-array>
+</resources>

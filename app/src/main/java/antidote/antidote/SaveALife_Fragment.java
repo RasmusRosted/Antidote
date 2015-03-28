@@ -93,7 +93,6 @@ public class SaveALife_Fragment extends Fragment {
 
         ((ImageView) rootView.findViewById(R.id.drawable_save_a_life)).setImageDrawable(
                 drawableItem);
-        //TODO ((TextView) rootView.findViewById(android.R.id.text2)).setText(getString(R.string.description, titleTxt));
 
         return rootView;
     }
