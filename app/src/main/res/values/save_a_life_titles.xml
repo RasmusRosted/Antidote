@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-        <string-array name="SaveALifeTitles">
+        <string-array name="SaveALife_Titles">
             <item>Den første title</item>
             <item>Den anden title</item>
             <item>Den 3 title</item>

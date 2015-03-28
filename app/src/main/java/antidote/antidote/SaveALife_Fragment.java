@@ -16,14 +16,16 @@
 
 package antidote.antidote;
 
-import android.support.v4.app.Fragment;
+import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -50,6 +52,9 @@ public class SaveALife_Fragment extends Fragment {
     //TODO
     private List<String> titleList;
     private String titleTxt;
+    //TODO forstå TypedArray (for drawables)
+    private TypedArray drawableList;
+    private Drawable drawableItem;
 
 
 
@@ -80,11 +85,14 @@ public class SaveALife_Fragment extends Fragment {
         ViewGroup rootView = (ViewGroup) inflater
                 .inflate(R.layout.fragment_save_a_life, container, false);
         titleTxt = getTitleTxt();
+        drawableItem = getDrawableItem();
 
         // Set the title view to show the page number.
-        ((TextView) rootView.findViewById(android.R.id.text1)).setText(
+        ((TextView) rootView.findViewById(R.id.title_save_a_life)).setText(
                 titleTxt);
 
+        ((ImageView) rootView.findViewById(R.id.drawable_save_a_life)).setImageDrawable(
+                drawableItem);
         //TODO ((TextView) rootView.findViewById(android.R.id.text2)).setText(getString(R.string.description, titleTxt));
 
         return rootView;
@@ -92,9 +100,16 @@ public class SaveALife_Fragment extends Fragment {
 
     public String getTitleTxt() {
         //TODO ITS ALIVE!!!!!! HURRA!
-        titleList = Arrays.asList(getResources().getStringArray(R.array.SaveALifeTitles));
+        titleList = Arrays.asList(getResources().getStringArray(R.array.SaveALife_Titles));
         titleTxt = titleList.get(mPageNumber);
         return titleTxt;
+    }
+
+    public Drawable getDrawableItem() {
+        //TODO ITS ALIVE!!!!!! HURRA!
+        drawableList = getResources().obtainTypedArray(R.array.SaveALife_Drawables);
+        drawableItem = drawableList.getDrawable(mPageNumber);
+        return drawableItem;
     }
 
     /**

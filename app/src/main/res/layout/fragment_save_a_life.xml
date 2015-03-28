@@ -25,14 +25,14 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <TextView android:id="@android:id/text1"
+        <TextView android:id="@+id/title_save_a_life"
             style="?android:textAppearanceLarge"
             android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp" />
 
-        <TextView android:id="@android:id/text2"
+        <ImageView android:id="@+id/drawable_save_a_life"
             style="?android:textAppearanceMedium"
             android:lineSpacingMultiplier="1.2"
             android:layout_width="match_parent"

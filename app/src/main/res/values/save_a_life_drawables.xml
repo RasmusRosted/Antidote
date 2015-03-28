@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="SaveALife_Drawables">
+        <item>drawable/step01.png</item>
+        <item>drawable/step02.png</item>
+        <item>drawable/step03.png</item>
+        <item>drawable/step04.png</item>
+        <item>drawable/step05.png</item>
+        <item>drawable/step06.png</item>
+    </array>
+    <!--//TODO test
+    <array name="SaveALife_Drawables">
+        <item name="step01">drawable/step01.png</item>
+        <item name="step02">drawable/step02.png</item>
+        <item name="step03">drawable/step03.png</item>
+        <item name="step04">drawable/step04.png</item>
+        <item name="step05">drawable/step05.png</item>
+        <item name="step06">drawable/step06.png</item>
+    </array>
+    -->
+
+
+</resources>
