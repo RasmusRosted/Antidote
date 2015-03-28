@@ -10,6 +10,6 @@ public class DrugUsage extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drug_usage);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//TODO not sure if needed        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
