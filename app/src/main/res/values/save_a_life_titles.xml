@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="SaveALifeTitles">
+            <item>Den første title</item>
+            <item>Den anden title</item>
+            <item>Den 3 title</item>
+            <item>Den 4 title</item>
+            <item>Den 5 title</item>
+            <item>Den 6 title</item>
+        </string-array>
+</resources>

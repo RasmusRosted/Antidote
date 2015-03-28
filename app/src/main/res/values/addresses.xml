@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Addresses">
+        <item>Vesterbrogade 10, København V, Danmark</item>
+        <item>Sjællandsgade 33, København N, Danmark</item>
+
+    </string-array>
+
+
+</resources>

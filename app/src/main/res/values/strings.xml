@@ -1,0 +1,32 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Antidote</string>
+    <string name="title">Antidote</string>
+    <string name="save_a_life">Save A Life</string>
+    <string name="find_your_antidote">Find Your AntiDote</string>
+    <string name="drug_usage">Drug Usage</string>
+    <string name="news">News</string>
+    <string name="title_activity_save_alife">SaveALife</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_find_your_antidote">Antidote</string>
+    <string name="sav_header">sav_header</string>
+    <string name="txtImageDescription">Step</string>
+
+    <!-- Buttons -->
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+
+
+    <!-- Titles -->
+    <string name="title_crossfade">Simple Crossfade</string>
+    <string name="title_card_flip">Card Flip</string>
+    <string name="title_screen_slide">Screen Slide</string>
+    <string name="title_zoom">Zoom</string>
+    <string name="title_layout_changes">Layout Changes</string>
+    <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: <xliff:g id="title_text">%2$d</xliff:g></string>
+    <string name="description"></string>
+    <string name="action_settings">action_settings</string>
+    <string name="title_activity_drug_usage">Drug Usage</string>
+    <string name="lorem_ipsum">lorem ipsum</string>
+</resources>
